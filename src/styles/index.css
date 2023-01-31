@@ -1,12 +1,56 @@
+body {
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size:x-large;
+}
 
-/* 
+ul {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+li {
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
-*/
+li:hover > .fa-xmark {
+    color:red;
+    visibility: visible;
+}
+
+input {
+    width: 30vw;
+}
+
+h1 {
+    font-family: Kalam;
+    text-align: center;
+}
+
+.listBody {
+    background: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    font-family: Kalam;
+    padding: 5%;
+}
+
+.fa-xmark {
+    color: darkred;
+    visibility: hidden;
+}
+
+.footerCounter {
+    margin: 0;
+}
